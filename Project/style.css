@@ -1,0 +1,98 @@
+body{
+	background-color: #ccffcc;
+	margin: 0px;
+	padding: 0px;
+	border: solid 8px black;
+}
+#header{
+	text-align:center ;
+	color: #fff;
+	background-color:#000 ;
+	font-family: Helvetica;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 70px;
+	position: fixed;
+	
+}
+#img1{
+	height:700px;
+	width: 70%;
+	margin: 0 auto;
+	align-content: center;
+	border: solid 5px black;
+	border-radius: 20px;
+	display:flex;
+	flex-wrap: wrap;
+
+}
+#quote{
+	background-color: #fff;
+	height: 70px;
+	font-family: Verdana;
+	text-align: center;
+	margin: 0 350 auto;
+	align-content: center;
+	padding-top: 15px;
+	border-radius: 0px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	border: solid 5px black;
+	
+
+}
+#about{
+	margin:0px 100px;
+	font-family: Arial;
+	font-size: 25px;
+	text-align: justify;
+	color: #000;
+}
+#subhead{
+	margin:0px 100px;
+	font-size: 25px;
+	font-family: Arial;
+	color: #000;
+	font-weight: bold;
+}
+li{
+	padding-left: 60px;
+	justify-content: center;
+	text-align:center;
+	list-style: none;
+	display: inline-block;
+}
+.fa-github-square{
+	margin: 0 auto;
+	color: #000;
+	font-size: 50px;
+	color: black;
+
+}
+.fa-linkedin{
+	margin: 0 auto;
+	color: #000;
+	font-size: 50px;
+	color: blue;
+	
+}
+.fa-free-code-camp{
+	margin: 0 auto;
+	color: #000;
+	font-size: 50px;
+	
+}
+.fa-codepen{
+	margin: 0 auto;
+	color: #000;
+	font-size: 50px;
+	
+}
+#media{
+	position: absolute;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
